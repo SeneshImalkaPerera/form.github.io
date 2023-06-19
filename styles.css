@@ -72,25 +72,3 @@ body {
 .loginBox a:hover {
     color: #ffc107;
 }
-
-@media (max-width: 768px) {
-    .container {
-        padding: 20px;
-    }
-
-    .loginBox {
-        width: 100%;
-        padding: 50px;
-        margin: 0;
-    }
-}
-
-@media (max-width: 480px) {
-    .loginBox {
-        padding: 30px;
-    }
-
-    .submit {
-        font-size: 16px;
-    }
-}
