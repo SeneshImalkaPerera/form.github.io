@@ -1,0 +1,96 @@
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loginBox {
+    background-color: black;
+    width: 400px;
+    padding: 70px 30px;
+    color: white;
+    border-radius: 5px;
+}
+
+.user {
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.loghead {
+    color: white;
+    margin-top: 0;
+}
+
+.loginBox input {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.submit {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: blue;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background: #ffc107;
+}
+
+.loginBox a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: darkgray;
+}
+
+.loginBox a:hover {
+    color: #ffc107;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .loginBox {
+        width: 100%;
+        padding: 50px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .loginBox {
+        padding: 30px;
+    }
+
+    .submit {
+        font-size: 16px;
+    }
+}
